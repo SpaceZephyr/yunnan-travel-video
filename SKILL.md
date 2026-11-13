@@ -21,7 +21,7 @@ description: "云南旅行系列短视频的执行包：一期讲一个目的地
 ## 环境
 | 需要 | 说明 |
 |---|---|
-| map-motion skill | `~/.claude/skills/map-motion/`（仓库 `zephyrwang6/myskill`），提供 `scripts/compile.py`、`render.py`、`audio.py`、`amap.py` 和 `map-3d/` |
+| map-motion skill | `~/.claude/skills/map-motion/`（仓库 `SpaceZephyr/myskill`），提供 `scripts/compile.py`、`render.py`、`audio.py`、`amap.py` 和 `map-3d/` |
 | 高德 Web 服务 key | 环境变量 `AMAP_KEY`，或 `~/.config/map-motion/amap_key` |
 | 百炼配音 key | 环境变量 `DASHSCOPE_API_KEY`，或 `~/.config/bailian/env`。请求不走代理 |
 | 配音和听写脚本 | 已带在包里：`scripts/voice/clone_bailian.py`（百炼克隆音色）、`asrcheck.py`（逐句听写核对，需要 mlx-audio、numpy、pypinyin 和本地 Whisper 模型，路径用环境变量 `WHISPER_MODEL` 指定） |

@@ -2,11 +2,11 @@
 云南旅行系列短视频的执行包。一期讲一个目的地，3 分钟内的竖屏攻略：把目的地分成三块，配地图路线、实拍图、3D 地形和行程卡。给 Claude Code、Codex 这类 Agent 直接执行用。
 ## 怎么用
 ```sh
-git clone https://github.com/zephyrwang6/yunnan-travel-video ~/.claude/skills/yunnan-travel-video
+git clone https://github.com/SpaceZephyr/yunnan-travel-video ~/.claude/skills/yunnan-travel-video
 ```
 然后让 Agent 读 `SKILL.md`，从 `references/选题队列.md` 里取下一期开始做。
 ## 依赖
-- 地图引擎 map-motion（含 map-3d）：<https://github.com/zephyrwang6/myskill>
+- 地图引擎 map-motion（含 map-3d）：<https://github.com/SpaceZephyr/myskill>
 - 高德 Web 服务 key（`AMAP_KEY`）、阿里云百炼 key（`DASHSCOPE_API_KEY`）
 - uv、ffmpeg、Chromium
 - 自己准备：配音的参考音色 `ref.wav`、一首背景音乐
