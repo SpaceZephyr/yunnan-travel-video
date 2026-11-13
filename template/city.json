@@ -1,0 +1,231 @@
+{
+ "city": "大理",
+ "audience": {
+  "days": 2,
+  "mode": "no_car",
+  "preference": "first_visit"
+ },
+ "updated_at": "2026-11-11",
+ "entrances": [
+  {
+   "name": "大理站",
+   "coord": [
+    100.250635,
+    25.589569
+   ],
+   "coord_system": "GCJ-02",
+   "say": 5,
+   "at": "大理站"
+  },
+  {
+   "name": "大理凤仪机场",
+   "coord": [
+    100.320952,
+    25.646965
+   ],
+   "coord_system": "GCJ-02",
+   "say": 7,
+   "at": "凤仪机场"
+  }
+ ],
+ "zones": [
+  {
+   "id": "A",
+   "name": "古城和苍山",
+   "color": "#F28C28",
+   "why": "大本营 + 上山看全景",
+   "stay": "古城"
+  },
+  {
+   "id": "B",
+   "name": "洱海西岸",
+   "color": "#2F80ED",
+   "why": "贴湖骑行看苍山倒影",
+   "stay": "才村 / 龙龛"
+  },
+  {
+   "id": "C",
+   "name": "洱海东岸",
+   "color": "#27AE60",
+   "why": "看日落落向苍山",
+   "stay": "双廊（一晚）"
+  }
+ ],
+ "routes": [
+  {
+   "id": "A",
+   "zone_id": "A",
+   "mode": "taxi+walking",
+   "stops": [
+    {
+     "name": "大理古城南门",
+     "coord": [
+      100.159741,
+      25.685401
+     ],
+     "coord_system": "GCJ-02",
+     "say": 11,
+     "at": "感通索道"
+    },
+    {
+     "name": "苍山感通索道",
+     "coord": [
+      100.157575,
+      25.644642
+     ],
+     "coord_system": "GCJ-02",
+     "say": 11,
+     "at": "感通索道"
+    },
+    {
+     "name": "大理古城南门",
+     "coord": [
+      100.159741,
+      25.685401
+     ],
+     "coord_system": "GCJ-02",
+     "say": 13,
+     "at": "南门"
+    },
+    {
+     "name": "大理古城北门",
+     "coord": [
+      100.157061,
+      25.698186
+     ],
+     "coord_system": "GCJ-02",
+     "say": 13,
+     "at": "北门"
+    },
+    {
+     "name": "崇圣寺三塔",
+     "coord": [
+      100.143044,
+      25.704129
+     ],
+     "coord_system": "GCJ-02",
+     "say": 14,
+     "at": "三塔"
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "zone_id": "B",
+   "mode": "cycling",
+   "stops": [
+    {
+     "name": "龙龛码头",
+     "coord": [
+      100.207278,
+      25.69683
+     ],
+     "coord_system": "GCJ-02",
+     "say": 15,
+     "at": "龙龛码头"
+    },
+    {
+     "name": "洱海生态廊道才村",
+     "coord": [
+      100.194783,
+      25.714441
+     ],
+     "coord_system": "GCJ-02",
+     "say": 17,
+     "at": "才村"
+    },
+    {
+     "name": "磻溪S湾",
+     "coord": [
+      100.150486,
+      25.766857
+     ],
+     "coord_system": "GCJ-02",
+     "say": 17,
+     "at": "S湾"
+    },
+    {
+     "name": "喜洲古镇",
+     "coord": [
+      100.131582,
+      25.85295
+     ],
+     "coord_system": "GCJ-02",
+     "say": 18,
+     "at": "喜洲"
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "zone_id": "C",
+   "mode": "taxi",
+   "stops": [
+    {
+     "name": "喜洲古镇",
+     "coord": [
+      100.131582,
+      25.85295
+     ],
+     "coord_system": "GCJ-02",
+     "say": 19,
+     "at": "喜洲"
+    },
+    {
+     "name": "双廊古镇",
+     "coord": [
+      100.194322,
+      25.908323
+     ],
+     "coord_system": "GCJ-02",
+     "say": 19,
+     "at": "双廊"
+    },
+    {
+     "name": "小普陀",
+     "coord": [
+      100.223013,
+      25.807452
+     ],
+     "coord_system": "GCJ-02",
+     "say": 20,
+     "at": "小普陀"
+    },
+    {
+     "name": "下关洱海公园",
+     "coord": [
+      100.247329,
+      25.603041
+     ],
+     "coord_system": "GCJ-02",
+     "say": 20,
+     "at": "下关"
+    }
+   ]
+  }
+ ],
+ "itinerary": [
+  {
+   "days": 2,
+   "plan": [
+    [
+     "A"
+    ],
+    [
+     "B",
+     "C"
+    ]
+   ]
+  },
+  {
+   "days": 1,
+   "plan": [
+    [
+     "A",
+     "龙龛湖边"
+    ]
+   ]
+  }
+ ],
+ "facts_file": "research/facts.md"
+}
